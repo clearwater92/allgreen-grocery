@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!--fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/2cf84c8974.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" type="image/png" href="img/allgreen-header.png" />
+
+    <title>싱싱한 식자재 배달 전문점, Allgreen Market</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>01</span>Allgreen에 대하여</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>회사 연혁</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span>상품 둘러보기</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>공지사항</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>05</span>자주 묻는 질문</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/allgreen-header.png" alt="Logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Allgreen Market</span>
+          <span class="heading-primary--sub">언택트 시대의 스마트한 선택</span>
+        </h1>
+
+        <a href="#section-produce" class="btn btn--green btn--animated"
+          >상품 둘러보기</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            natural 'Allgreen' produce for everyone
+          </h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              매일 신선한 유기농 채소의 신선함을 맛보세요
+            </h3>
+            <p class="paragraph">
+              자연 본연의 색을 잃지 않는 'Allgreen'은 모든 식품들을 정성을 다해
+              재배하고 유통하겠다는 철학으로 설립되었습니다.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              환경을 보존하고 안전한 식재료를 제공합니다
+            </h3>
+            <p class="paragraph">
+              'Allgreen'은 국내 친환경 유기농 식품의 유통을 돕고, 소비자에게
+              우리 농촌의 땀과 정성이 담긴 안전한 먹거리를 제공하고자
+              노력합니다.
+            </p>
+
+            <a href="#" class="btn-text">더 보기 &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="img/fresh-2.jpg 300w, img/fresh-2-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/fresh-2.jpg"
+              />
+
+              <img
+                srcset="img/fresh-3.jpg 300w, img/fresh-3-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/fresh-3.jpg"
+              />
+
+              <img
+                srcset="img/fresh-4.jpg 300w, img/fresh-4-large.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/fresh-4.jpg"
+              />
+
+              <!--
+                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                            -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fas fa-truck"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">빠른 배송</h3>
+              <p class="feature-box__text">
+                전국 어디에서도 신선한 제품을 빠르게 받아 드실 수 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fas fa-won-sign"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                할인 이벤트
+              </h3>
+              <p class="feature-box__text">
+                전국 400여개 매장에서 친환경 농산물 할인행사를 진행하고
+                있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fas fa-globe-asia"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                친환경 브랜드
+              </h3>
+              <p class="feature-box__text">
+                당신이 드시는 유기농 음식이 지구를 살립니다.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fas fa-utensils"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                맛있는 밥상
+              </h3>
+              <p class="feature-box__text">
+                신선한 식자재로 맛있는 식사를 준비하세요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-produce" id="section-produce">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Fresh Vegetables</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >시금치</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>중량, 452그램</li>
+                    <li>원산지, 전라남도 신안군</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-discount"><del>4600원</del></p>
+                    <p class="card__price-value">4300원</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >방울토마토</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>중량, 283그램</li>
+                    <li>원산지, 경상북도 구미시</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-discount"><del>2500원</del></p>
+                    <p class="card__price-value">2200원</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >당근</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>중량, 454그램</li>
+                    <li>원산지, 경상남도 양산시</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-discount"><del>1900원</del></p>
+                    <p class="card__price-value">1600원</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--green">다른 상품 살펴보기</a>
+        </div>
+      </section>
+
+      <section class="section-login">
+        <div class="row">
+          <div class="login">
+            <div class="login__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Allgreen 계정으로 로그인</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="이름"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form__label">Full name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="이메일 주소"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      개인 회원
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span>
+                      단체 회원
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">로그인 &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <img alt="Full logo" src="img/allgreen-logo-l.png" />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Allgreen에 대하여</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">회사 연혁</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">상품 둘러보기</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">공지사항</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">자주 묻는 질문</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Gunwoo An</a>. Copyright
+            &copy; by Gunwoo An<br />고객문의 : clearwater92@naver.com<br />사업자
+            등록번호: 1XX-2X-3XXXX
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/fresh-11.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/fresh-12.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            지금 당장 Allgreen 서비스를 이용해 보세요
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            친환경 농산물 공급의 중요성이 날로 갈수록 커지고 있습니다. 우리
+            Allgreen 은 적합한 기후와 비옥한 토양, 깨끗한 수질 등 농사에 유리한
+            여건이 갖춰져 있습니다. 주생산품으로는 시금치, 방울토마토, 당근,
+            사과, 강낭콩, 쌀입니다. 화학비료를 일절 사용하지 않고 매출보다는
+            고객님의 건강을 생각하자는 모토로 사업을 시작하였습니다. 그렇기
+            때문에 맛과 질이 높다고 할 수 자부할 수 있습니다. 전국 어디서나
+            당사의 농산품을 이용할 수 있으며, 고품질의 상품을 빠르고 안전하게
+            받아서 드실 수 있도록 Allgreen 일동은 노력하고 있습니다.
+          </p>
+          <a href="#" class="btn btn--green">닫기</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
