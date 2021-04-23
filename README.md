@@ -1,6 +1,6 @@
 # allgreen-grocery
 ## 설명
-SASS로 작성한 식료품 사이트입니다. 모바일 버전으로도 접속 가능합니다.   
+SCSS로 작성한 식료품 사이트입니다. 모바일 버전으로도 접속 가능합니다.   
 사이트 배포 ➡ [Allgreen web site](https://wonderful-booth-d57782.netlify.app/)
 
 ## 사이트 구성
